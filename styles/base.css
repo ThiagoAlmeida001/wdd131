@@ -1,0 +1,200 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: #333333;
+}
+
+
+header {
+    background-color: #1a252f; 
+    color: #ffffff;
+    text-align: center;
+}
+
+#course-title {
+    display: block;
+    padding: 15px 10px;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    background-color: #2c3e50; 
+}
+
+.navigation li {
+    flex: 1;
+}
+
+.navigation a {
+    display: block;
+    color: #ffffff;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.navigation a:hover {
+    background-color: #34495e;
+    text-decoration: underline;
+}
+
+
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    gap: 20px;
+}
+
+.main-title {
+    grid-column: 1 / -1; 
+    text-align: center;
+    font-size: 2.2rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #dcdde1;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.card h2 {
+    background-color: #2c3e50; 
+    color: #ffffff;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+
+.about-content {
+    display: flex;
+    padding: 20px;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.about-content p {
+    line-height: 1.6;
+    font-size: 1rem;
+    flex: 2;
+}
+
+.profile-img {
+    width: 150px;
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+    flex: 1;
+    object-fit: cover;
+}
+
+
+.resources-list {
+    list-style: none;
+    padding: 20px;
+}
+
+.resources-list li {
+    margin-bottom: 12px;
+}
+
+.resources-list a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.resources-list a:hover {
+    text-decoration: underline;
+    color: #1abc9c;
+}
+
+
+footer {
+    background-color: #1a252f;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 10px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
+
+#lastModified {
+    color: #f1c40f; 
+    font-size: 0.85rem;
+}
+
+.country-section {
+    padding: 10px 20px 25px 20px;
+    border-top: 1px dashed #dcdde1; /* Línea sutil para separar la biografía del país */
+}
+
+.country-title {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-bottom: 8px;
+}
+
+.country-divider {
+    border: 0;
+    height: 1px;
+    background-color: #dcdde1;
+    margin-bottom: 15px;
+}
+
+.country-details {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.flag-container {
+    flex: 0 0 120px; 
+    text-align: center;
+}
+
+.flag-img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #cccccc;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.flag-container figcaption {
+    font-size: 0.75rem;
+    font-style: italic;
+    color: #666666;
+    line-height: 1.2;
+}
+
+.country-text {
+    flex: 1;
+    line-height: 1.6;
+    font-size: 0.95rem;
+    color: #333333;
+}
