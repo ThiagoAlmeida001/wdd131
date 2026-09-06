@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -119,14 +119,14 @@ main {
 }
 
 .resources-list a {
-    color: #2980b9;
+    color: rgb(31, 107, 156);
     text-decoration: none;
     font-weight: 500;
 }
 
 .resources-list a:hover {
     text-decoration: underline;
-    color: #1abc9c;
+    color: #1a252f;
 }
 
 
