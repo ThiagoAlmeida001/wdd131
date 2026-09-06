@@ -6,6 +6,15 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 body {
     background-color: #f4f6f9;
     color: #333333;
