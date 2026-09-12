@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    background-color: #1A252F;
+    
+}
+
+header p { 
+    align-content: center; 
+    padding: 20px; 
+    color: #fff; 
+    font-size:2rem;
+}
+
+#menu {
+	font-size: 1.5rem;
+    border: 0;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+#menu::before {
+	content: "☰";
+    color: #fff;
+    font-size: 2rem;
+}
+
+#menu.open::before {
+	content: "❌";
+}
+
+.navigation {
+	display: none;
+	flex-direction: column;
+	list-style: none;
+    background-color: #1A252F;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.navigation.open {
+    display: flex; 
+}
+
+.navigation a {
+	display: block;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.navigation a:hover {
+	background-color: #bbb;
+	color: #333;
+	font-weight: 700;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+
+.imagens-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+figure {
+    background-color: #fcfcfc;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 8px;
+    font-size: 1rem;
+    color: #333;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    background-color: #1a252f;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
