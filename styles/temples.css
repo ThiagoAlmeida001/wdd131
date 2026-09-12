@@ -18,6 +18,11 @@ header p {
     font-size:2rem;
 }
 
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
 #menu {
 	font-size: 1.5rem;
     border: 0;
