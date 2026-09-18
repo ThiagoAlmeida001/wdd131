@@ -1,0 +1,114 @@
+:root {
+    --primary-color: #d6002f;
+    --secondary-color: #0032A0;
+    --text-color: #333333;
+    --bg-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.place-header {
+    background-color: var(--primary-color); 
+    color: var(--bg-color);
+    text-align: center;
+    padding: 15px 10px;
+    border-bottom: 5px solid var(--secondary-color); 
+}
+
+.place-header h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+}
+
+.image-box {
+    width: 100%;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.info-card {
+    padding: 30px 20px;
+    text-align: center;
+    background-color: var(--bg-color);
+}
+
+.card-header {
+    margin-bottom: 20px;
+}
+
+.card-header h2 {
+    font-size: 1.8rem;
+    color: #000000;
+    font-weight: 500;
+}
+
+.weather-icon {
+    display: block;
+    content: url('../images/clear.svg');
+    width: 60px;
+    height: 60px;
+    margin: 15px auto;
+}
+
+.data-list {
+    list-style: none;
+    display: inline-block; 
+    text-align: right;     
+    font-size: 0.95rem;
+}
+
+.data-list li {
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.label {
+    font-weight: 700;
+    color: var(--text-color);
+    margin-right: 5px;
+}
+
+.value {
+    font-weight: 400;
+    color: #555555;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: auto; 
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+footer p {
+    margin-bottom: 4px;
+}

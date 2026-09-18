@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Chile Page</title>
+    <meta name="description" content="WDD 131 Weather and Data Page - Discover key geographic insights and real-time weather conditions for Santiago, Chile.">
+    <meta name="author" content="Thiago da Silva Almeida">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header class="place-header">
+        <h1>Chile</h1>
+    </header>
+
+    <main class="main-content">
+        
+        <div class="image-box">
+            <picture>
+                <source media="(min-width: 48rem)" srcset="images/chile02.webp">
+                <img src="images/chile01.webp" alt="Beautiful landscape of condor" class="hero-image">
+            </picture>
+        </div>
+        <section class="info-card data-card">
+            <div class="card-header">
+                <h2>Data</h2>
+            </div>
+            <ul class="data-list">
+                <li><span class="label">Area:</span> <span class="value">756,102 sq km</span></li>
+                <li><span class="label">Population:</span> <span class="value">19,600,000</span></li>
+                <li><span class="label">Capital:</span> <span class="value">Santiago</span></li>
+                <li><span class="label">Languages:</span> <span class="value">Spanish</span></li>
+                <li><span class="label">Currency:</span> <span class="value">Chilean Peso (CLP)</span></li>
+                <li><span class="label">Time Zone:</span> <span class="value">UTC-3 / UTC-4</span></li>
+                <li><span class="label">Calling Code:</span> <span class="value">+56</span></li>
+            </ul>
+        </section>
+
+        <section class="info-card weather-card">
+            <div class="card-header">
+                <h2>Weather</h2>
+                <span class="weather-icon"></span>
+            </div>
+            <ul class="data-list">
+                <li><span class="label">Temperature:</span> <span class="value">22°C</span></li>
+                <li><span class="label">Conditions:</span> <span class="value">Clear Sky</span></li>
+                <li><span class="label">Wind:</span> <span class="value">12 km/h</span></li>
+                <li><span class="label">Wind Chill:</span> <span class="value" id="wind-chill-value">N/A</span></li>
+            </ul>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> 🎶 Thiago Almeida 🎶 Santiago, Chile</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
