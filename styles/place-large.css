@@ -63,7 +63,7 @@
         vertical-align: middle;
     }
 
-    .weather-icon::before {
+    .weather-icon::after {
         content: "☀️"; 
     }
 }
