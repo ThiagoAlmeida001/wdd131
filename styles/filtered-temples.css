@@ -105,13 +105,18 @@ section {
     text-align: center;
 }
 
+h2 {
+    padding: 3px;
+}
+
 section p {
-    margin-top: 8px;
+    padding: 2px;
     font-size: 1rem;
     color: #333;
 }
 
 section img {
+    margin-top: 10px;
     width: 100%;
     height: auto;
     display: block;
