@@ -76,7 +76,7 @@ const temples = [
     dedicated: "2002, May, 17",
     area: 48100,
     imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/campinas-brazil-temple/campinas-brazil-temple-6012-main.jpg"
+    "https://www.churchofjesuschrist.org/imgs/c9a81a6f86750d7d9ade3499d3df52e2f7f726a7/full/640%2C/0/default"
   },
   {
     templeName: "Santiago Chile",
@@ -84,7 +84,7 @@ const temples = [
     dedicated: "1983, September, 15–17",
     area: 20831,
     imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/_temp/024-Santiago-Chile-Temple.jpg"
+    "https://www.churchofjesuschrist.org/imgs/b6becb4ca0c60a52ad5dc57a90ec69fe5fe7ec63/full/640%2C/0/default"
   },
   {
     templeName: "Córdoba Argentina",
@@ -92,7 +92,7 @@ const temples = [
     dedicated: "2015, May, 17",
     area: 34369,
     imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/cordoba-argentina-temple/cordoba-argentina-temple-11093-main.jpg"
+    "https://www.churchofjesuschrist.org/imgs/47f77971f2ad3eb7013b86d2f14e1e491333566c/full/640%2C/0/default"
   },
   {
     templeName: "Recife Brazil",
@@ -100,7 +100,7 @@ const temples = [
     dedicated: "2000, December, 15",
     area: 37200,
     imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/recife-brazil-temple/recife-brazil-temple-36778-main.jpg"
+    "https://www.churchofjesuschrist.org/imgs/74d57cefebf31773df61b0b882067ee236de5279/full/640%2C/0/default"
   },
   {
     templeName: "São Paulo Brazil",
@@ -108,7 +108,7 @@ const temples = [
     dedicated: "1978, October, 30",
     area: 59246,
     imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/_temp/017-S%C3%A3o-Paulo-Brazil-Temple.jpg"
+    "https://www.churchofjesuschrist.org/imgs/940f3e201364433a3d5d3dc14b0cacee38d41d1d/full/640%2C/0/default"
   },
 ];
 
