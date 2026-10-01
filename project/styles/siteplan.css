@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333333;
+    padding: 0;
+}
+
+header {
+    background-color: #111111; 
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2.5rem 1rem;
+    border-bottom: 5px solid #C4122C; 
+}
+
+header h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    color: #F1C40F; 
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+}
+
+section {
+    background-color: #FFFFFF;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border-left: 6px solid #C4122C; 
+}
+
+section h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #111111;
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+p {
+    margin-bottom: 1rem;
+    font-size: 1.05rem;
+}
+
+ul {
+    list-style-type: none; 
+    margin-left: 0.5rem;
+}
+
+li {
+    margin-bottom: 0.8rem;
+    position: relative;
+    padding-left: 1.5rem;
+    font-size: 1.05rem;
+}
+
+li::before {
+    content: "•";
+    color: #C4122C;
+    font-weight: bold;
+    font-size: 1.3rem;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+code {
+    background-color: #f1f1f1;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-family: monospace;
+    color: #C4122C;
+    font-weight: bold;
+}
+
+.wireframe-container {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #fafafa;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.wireframe-container h3 {
+    font-family: 'Oswald', sans-serif;
+    color: #555555;
+    margin-bottom: 1rem;
+}
+
+.wireframe-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 2px dashed #cccccc; 
+    background-color: #ffffff;
+}
+
+footer {
+    background-color: #111111;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    font-size: 0.95rem;
+    border-top: 4px solid #F1C40F; 
+    margin-top: 4rem;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    section {
+        padding: 1.25rem;
+    }
+}
