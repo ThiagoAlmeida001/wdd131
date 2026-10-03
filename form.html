@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Form – Thiago da Silva Almeida</title>
+    <meta name="description"
+      content="WDD 131 Product Review Form - A dynamic web product review form page.">
+    <meta name="author" content="Thiago da Silva Almeida">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form action="review.html" method="get">
+
+            <label for="product-select" class="text-title">Product Name</label>
+            <select name="product" id="product-select" required>
+                <option value="Select a Product ..." disabled selected>Select a Product ...</option>
+            </select>
+                
+            <fieldset class="group">
+                <legend>Overall Rating</legend>
+                <div class="stars-container">
+                    <label for="rate-1">☆<br><input type="radio" id="rate-1" name="rating" value="1" required></label>
+                    <label for="rate-2">☆☆<br><input type="radio" id="rate-2" name="rating" value="2"></label>
+                    <label for="rate-3">☆☆☆<br><input type="radio" id="rate-3" name="rating" value="3"></label>
+                    <label for="rate-4">☆☆☆☆<br><input type="radio" id="rate-4" name="rating" value="4"></label>
+                    <label for="rate-5">☆☆☆☆☆<br><input type="radio" id="rate-5" name="rating" value="5"></label>
+                </div>
+            </fieldset>
+
+            <label for="install-date" class="text-title">Date of Installation</label>
+            <input type="date" id="install-date" name="installation_date" required>
+
+            <fieldset class="group">
+                <legend>Which features did you find useful in the product? <em>(Check all that apply)</em></legend>
+
+                <div class="checkbox-item">
+                    <input type="checkbox" id="feat-durability" name="features" value="durability">
+                    <label for="feat-durability">Durability</label>
+                </div>
+
+                <div class="checkbox-item">
+                    <input type="checkbox" id="feat-use" name="features" value="ease_of_use">
+                    <label for="feat-use">Ease of Use</label>
+                </div>
+
+                <div class="checkbox-item">
+                    <input type="checkbox" id="feat-performance" name="features" value="performance">
+                    <label for="feat-performance">Performance</label>
+                </div>
+
+                <div class="checkbox-item">
+                    <input type="checkbox" id="feat-design" name="features" value="design">
+                    <label for="feat-design">Design</label>
+                </div>
+            </fieldset>
+
+            <label for="review-text" class="text-title">Written Review <span class="optional-text">(Optional)</span></label>
+            <textarea name="written_review" id="review-text" rows="4"></textarea>
+            
+            <label for="fan-name" class="text-title">Your Name <span class="optional-text">(Optional)</span></label>
+            <input type="text" id="fan-name" name="visitor_name">
+            
+            <div class="form-actions">
+                <button type="submit">Post Review</button>
+            </div>
+
+        </form>
+
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span>🎶 Thiago Almeida 🎶 Santiago, Chile</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

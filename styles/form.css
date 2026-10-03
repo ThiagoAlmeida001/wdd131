@@ -1,0 +1,161 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header, footer{
+    padding: 1rem;
+    background-color: #2D032B;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+main{
+    background-color: #D5CDD5;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.text-title {
+    display: block;      
+    font-weight: bold;
+    margin-top: 1.5rem;  
+    margin-bottom: 0.3rem;
+    font-family: sans-serif;
+}
+
+.group {
+    border: none;
+    margin: 1.5rem 0;
+    padding: 0;
+}
+
+.group legend {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-family: sans-serif;
+}
+
+.stars-container {
+    display: flex;
+    justify-content: space-between; 
+    max-width: 400px; 
+    margin: 0 auto;  
+}
+
+.stars-container label {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.stars-container input[type="radio"] {
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+.optional-text {
+    color: #0056b3; 
+    font-size: 0.9rem; 
+    font-weight: normal; 
+}
+
+select, 
+input[type="text"], 
+input[type="date"], 
+textarea {
+    display: block; 
+    width: 100%;
+    padding: 0.5rem; 
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    border: 1px solid #777777;
+    border-radius: 4px;
+}
+
+fieldset.group {
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem; 
+}
+
+.checkbox-item input[type="checkbox"] {
+    width: auto; 
+    margin-right: 0.5rem; 
+    cursor: pointer;
+}
+
+.checkbox-item label {
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+form > label.text-title {
+    display: block;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.form-actions button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    border: 1px solid #777777;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.form-actions button:hover {
+    background-color: #e0e0e0; 
+}
+
+.confirmation-card {
+    text-align: center;
+    padding: 2rem;
+    font-family: sans-serif;
+}
+
+.counter-display {
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #2D032B; 
+}
+
+#review-counter {
+    font-size: 1.5rem;
+    color: #0056b3; 
+}
+
+.button-link {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #f0f0f0;
+    border: 1px solid #777777;
+    border-radius: 4px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button-link:hover {
+    background-color: #e0e0e0;
+}
