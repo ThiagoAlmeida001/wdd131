@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greatest Achievements – Flamengo Hub</title>
+    <meta name="description" content="Review the official record of Flamengo's international and domestic championship triumphs.">
+    <meta name="author" content="Thiago da Silva Almeida">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/flamengo.css">
+    <link rel="stylesheet" href="styles/flamengo-large.css">
+    <script src="scripts/flamengo.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo-title-group">
+            <img src="images/flalogo.jpeg" alt="Flamengo logo">
+            <h1>Nação Rubro-Negra</h1>
+        </div>
+        <nav>
+            <button id="menu-toggle" aria-label="Toggle Navigation Menu">☰</button>
+            <ul class="navigation" id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="maracana.html">Maracanã</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="content-section">
+            <h2>Greatest Achievements</h2>
+            
+            <div id="achievements-container" class="achievements-list"></div>
+            
+            <div class="visit-box">
+                <p>You have inspected our club milestones <span id="visit-counter">0</span> times during this session.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span>🎶 Thiago Almeida 🎶 Santiago, Chile</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
