@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
             title: "Intercontinental Cup", 
             details: "World champions after defeating Liverpool 3-0 in Tokyo, cementing the ultimate golden era led by Zico.", 
             type: "Global",
-            logo: "images/Intercontinentallogo.png"
+            logo: "images/Intercontinentallogo.jpg"
         },
         { 
             title: "Copa Libertadores Information", 
@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     const heroImages = [
-        "images/flahero.jpeg",    
+        "images/flahero.jpg",    
         "images/flahero2.jpg",   
         "images/flahero3.jpg"    
     ];
