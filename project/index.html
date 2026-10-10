@@ -53,6 +53,36 @@
                 <p>Today, Clube de Regatas do Flamengo stands at the absolute pinnacle of domestic and continental football, operating as a benchmark for professional sporting success. Backed by an unstoppable financial structure and a global fanbase exceeding 40 million loyal supporters, the institution consistently fields elite squads capable of fighting for every major trophy. With a record-breaking four Copa Libertadores crowns, eight Brasileirão national titles, and an unmatched regional dominance, Flamengo is no longer just a football team; it is an undisputed, modern sporting empire driven by a continuous hunger for monumental glory.</p>
             </div>
         </section>
+
+        <section class="content-section form-section">
+            <h2>Help Us Improve the Hub</h2>
+            <p class="form-intro">Share your ideas, suggestions, or feedback to make our Flamengo fan site even bigger! <span class="optional-text">(All fields are secure)</span></p>
+            
+            <form action="thankyou.html" method="get" class="feedback-form">
+                
+                <label for="fan-name">Your Name <span class="optional-text">(Optional)</span></label>
+                <input type="text" id="fan-name" name="visitor_name" placeholder="e.g., Zico Silva">
+
+                <label for="fan-email">Your Email <span class="optional-text">(Optional)</span></label>
+                <input type="email" id="fan-email" name="visitor_email" placeholder="e.g., name@example.com">
+
+                <label for="idea-category">What should we improve?</label>
+                <select id="idea-category" name="category" required>
+                    <option value="" disabled selected>Select a category...</option>
+                    <option value="history">More Historical Facts</option>
+                    <option value="squad">Current Squad Statistics</option>
+                    <option value="gallery">More High-Res Photos</option>
+                    <option value="design">Website Colors & Layout</option>
+                </select>
+
+                <label for="fan-message">Your Ideas & Suggestions:</label>
+                <textarea id="fan-message" name="message" rows="5" placeholder="Write your ideas here..." required></textarea>
+
+                <div class="form-actions">
+                    <button type="submit">Submit Feedback</button>
+                </div>
+            </form>
+        </section>
     </main>
     <footer>
         <p>&copy;<span id="currentyear"></span>🎶 Thiago Almeida 🎶 Santiago, Chile</p>

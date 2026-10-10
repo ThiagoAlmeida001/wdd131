@@ -47,4 +47,9 @@
         gap: 1rem;
     }
 
+    .feedback-form {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
 }

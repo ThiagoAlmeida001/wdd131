@@ -68,24 +68,6 @@ document.addEventListener("DOMContentLoaded", () => {
         container.innerHTML = dynamicHtml;
     }
 
-    const visitsKey = "flamengoPageVisits";
-    const counterDisplay = document.getElementById("visit-counter");
-
-    if (counterDisplay) {
-        let visitCount = localStorage.getItem(visitsKey);
-        
-        if (visitCount === null) {
-            visitCount = 0;
-        } else {
-            visitCount = parseInt(visitCount, 10);
-        }
-
-        visitCount += 1;
-        localStorage.setItem(visitsKey, visitCount);
-        
-        counterDisplay.textContent = `${visitCount}`;
-    }
-
     const heroImages = [
         "images/flahero.jpg",    
         "images/flahero2.jpg",   
@@ -107,5 +89,23 @@ document.addEventListener("DOMContentLoaded", () => {
             }, 300); 
 
         }, 4000); 
+    }
+
+    const feedbackCounterEl = document.getElementById("feedback-counter");
+    
+    if (feedbackCounterEl) {
+        const feedbackKey = "submittedFeedbackCount";
+        let feedbackCount = localStorage.getItem(feedbackKey);
+
+        if (feedbackCount === null) {
+            feedbackCount = 0;
+        } else {
+            feedbackCount = parseInt(feedbackCount, 10);
+        }
+
+        feedbackCount += 1;
+        localStorage.setItem(feedbackKey, feedbackCount);
+
+        feedbackCounterEl.textContent = `${feedbackCount}`;
     }
 });
